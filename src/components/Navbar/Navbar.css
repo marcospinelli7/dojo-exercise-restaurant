@@ -1,0 +1,23 @@
+.navbar-container {
+    width: calc(100% - 50px);
+    height: 75px;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    padding: 0 24px;
+    display: flex;
+}
+.navbar-container .navbar-title {
+    display: flex;
+}
+.navbar-container .navbar-title img{
+    width: 30px;
+    margin-right: 16px;
+
+}
+.navbar-container .navbar-title h1{
+    line-height: 1.2;
+    font-weight: 900;
+    font-family: var(--nunito-font);
+}
+
+
