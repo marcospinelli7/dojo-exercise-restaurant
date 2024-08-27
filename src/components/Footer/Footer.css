@@ -1,0 +1,104 @@
+.footer-container {
+    width: calc(100% - 50px);
+    background-color: var(--secondary-color);
+    color: var(--white);
+    padding: 48px 24px;
+    display: flex;
+    flex-direction: column;
+    font-family: var(--nunito-font);
+}
+
+.footer-container .footer-section .title{
+    font-family: var(--pacifico-font);
+    color: var(--primary-color);
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.footer-container .footer-section .link-item,
+.footer-container .footer-section .contact-item,
+.footer-container .footer-section .social-item {
+    display: flex;
+}
+
+.footer-container .footer-section .link-item img,
+.footer-container .footer-section .contact-item img{
+    margin-right: 8px;
+    max-width: 20px;
+}
+.footer-container .footer-section .link-item p{
+    font-weight: 700;
+    margin: 5px 0;
+    font-size: 15px;
+}
+
+.footer-container .footer-section .contact-item p{
+    font-weight: 700;
+    margin: 8px 0;
+    font-size: 16px;
+    max-width: 200px;
+}
+.footer-container .footer-section .social-item a img{
+    border: 1px solid white;
+    padding: 8px;
+    border-radius: 50%;
+    width: 20px;
+    margin: 8px 8px 0 0;
+}
+.footer-container .footer-section .opening-item{
+    margin-bottom: 20px;
+}
+.footer-container .footer-section .opening-item p{
+    margin: 6px 0;
+}
+
+.footer-container .footer-section .newsletter-item p {
+    font-weight: 600;
+} 
+
+.footer-container .footer-section .newsletter-item input {
+    font-weight: 600;
+} 
+.footer-container .footer-bottom {
+    border-top: 1px solid rgba(256, 256, 256, .1);
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px 0;
+}
+.footer-container .footer-bottom .copyright{
+    text-align: center;
+}
+.footer-container .footer-bottom .other-links{
+    display: flex;
+    flex-direction: row;
+}
+.footer-container .footer-bottom .other-links a{
+    padding: 0 16px;
+    border-right: 1px solid rgba(256, 256, 256, .1);
+    border-left: 1px solid rgba(256, 256, 256, .1);
+    color: #fff;
+}
+@media screen and (min-width: 768px) {
+    .footer-container {
+        justify-content: center;
+    }
+    .footer-links {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .footer-section {
+        width: 25%;
+    }
+    .footer-container .footer-bottom {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .footer-container .footer-bottom .copyright{
+        text-align: justify;
+    }
+
+}
