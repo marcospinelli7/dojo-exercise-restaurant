@@ -13,9 +13,6 @@ function App() {
         <Route path="/" element={<PageLayout />}>
         <Route index element={<Homepage />} />
         <Route path="/about" element={<About />} />
-          {/* <Route path="blogs" element={<Blogs />} />
-          <Route path="contact" element={<Contact />} /> */}
-          {/* <Route path="*" element={<NoPage />} /> */}
         </Route>
       </Routes>
     </BrowserRouter>

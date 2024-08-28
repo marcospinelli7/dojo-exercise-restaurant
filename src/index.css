@@ -20,3 +20,9 @@ body {
 a {
   text-decoration: none;
 }
+ul li {
+  list-style-type: none;
+}
+.mb-16 {
+  margin-bottom: 16px;
+}
