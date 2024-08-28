@@ -1,15 +1,24 @@
 import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 //components
 import { PageLayout } from "./components";
-
+//pages
+import { About, Homepage } from "./pages";
 
 function App() {
   return (
-    <div className="App">
-      <PageLayout>
-        <h1>Homepage</h1>
-      </PageLayout>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<PageLayout />}>
+        <Route index element={<Homepage />} />
+        <Route path="/about" element={<About />} />
+          {/* <Route path="blogs" element={<Blogs />} />
+          <Route path="contact" element={<Contact />} /> */}
+          {/* <Route path="*" element={<NoPage />} /> */}
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
