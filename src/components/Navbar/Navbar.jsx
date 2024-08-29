@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 
 const Navbar = () => { 
 
-  const [isNavOpen, setIsNavOpen] = useState(false);
+  const [isNavOpen, setIsNavOpen] = useState(true);
 
   const ToogleResponsiveNav = () => {
     setIsNavOpen(!isNavOpen)
