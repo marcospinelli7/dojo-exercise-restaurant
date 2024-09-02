@@ -24,9 +24,9 @@ const Navbar = () => {
       <div className="navbar-links">
         <ul>
           <li><Link className="nav-item" to="/">Home</Link></li>
-          <li><Link className="nav-item" to="/">About</Link></li>
-          <li><Link className="nav-item" to="/">Service</Link></li>
-          <li><Link className="nav-item" to="/">Menu</Link></li>
+          <li><Link className="nav-item" to="/about">About</Link></li>
+          <li><Link className="nav-item" to="/service">Service</Link></li>
+          <li><Link className="nav-item" to="/menu">Menu</Link></li>
           <li>
             <div className="navbar-dropdown" onMouseEnter={() => { setIsDropdownOpen(false)}} onMouseLeave={() => { 
             setTimeout(() => {
@@ -38,17 +38,18 @@ const Navbar = () => {
               </div>
               {!isDropdownOpen ? (
                 <div className="dropdown">
-                <Link className="nav-item" to="/">Booking</Link>
-                <Link className="nav-item" to="/">Our Team</Link>
-                <Link className="nav-item" to="/">Testimonial</Link>
+                <Link className="nav-item" to="/booking">Booking</Link>
+                <Link className="nav-item" to="/team">Our Team</Link>
+                <Link className="nav-item" to="/testimonial">Testimonial</Link>
                 </div>
               ) : ""}
             </div>
           </li>
-          <li><Link className="nav-item" to="/">Contact</Link></li>
+          <li><Link className="nav-item" to="/contact">Contact</Link></li>
         </ul>
         <Link
-          className="action-btn">
+          className="action-btn"
+          to="/booking">
             Book a table
         </Link>
       </div>
@@ -61,9 +62,9 @@ const Navbar = () => {
               <div className="navbar-responsive-links">
               <ul>
                 <li><Link className="nav-item" to="/">Home</Link></li>
-                <li><Link className="nav-item" to="/">About</Link></li>
-                <li><Link className="nav-item" to="/">Service</Link></li>
-                <li><Link className="nav-item" to="/">Menu</Link></li>
+                <li><Link className="nav-item" to="/about">About</Link></li>
+                <li><Link className="nav-item" to="/service">Service</Link></li>
+                <li><Link className="nav-item" to="/menu">Menu</Link></li>
                 <li>
                   <div className="navbar-dropdown" onClick={toogleDropdown}>
                     <div className='nav-title nav-item'>
@@ -72,17 +73,18 @@ const Navbar = () => {
                     </div>
                     {!isDropdownOpen ? (
                       <div className="dropdown">
-                      <Link className="nav-item" to="/">Booking</Link>
-                      <Link className="nav-item" to="/">Our Team</Link>
-                      <Link className="nav-item" to="/">Testimonial</Link>
+                      <Link className="nav-item" to="/booking">Booking</Link>
+                      <Link className="nav-item" to="/team">Our Team</Link>
+                      <Link className="nav-item" to="/testimonial">Testimonial</Link>
                       </div>
                     ) : ""}
                   </div>  
                 </li>
-                <li><Link className="nav-item" to="/">Contact</Link></li>
+                <li><Link className="nav-item" to="/contact">Contact</Link></li>
               </ul>
               <Link
-                className="action-btn mb-16">
+                className="action-btn mb-16"
+                to="/booking">
                   Book a table
               </Link>
             </div>
