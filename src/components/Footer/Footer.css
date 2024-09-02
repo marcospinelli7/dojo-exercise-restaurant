@@ -1,5 +1,5 @@
 .footer-container {
-    width: calc(100% - 50px);
+    width: calc(100% - 48px);
     background-color: var(--secondary-color);
     color: var(--white);
     padding: 48px 24px;

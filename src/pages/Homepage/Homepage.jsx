@@ -6,9 +6,9 @@ import { Hero } from '../../components';
 const Homepage = () => {
   return (
     <>
-    <Hero />
-        <h1>TEST</h1>
-        <Link to="/about">LINK</Link>
+      <Hero />
+      <h1>TEST</h1>
+      <Link to="/about">LINK</Link>
     </>
   )
 }
