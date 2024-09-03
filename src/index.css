@@ -11,6 +11,7 @@
   /* useful tertiary colors */
   --black: #000;
   --white: #fff;
+  --yellow: #ffc107;
 }
 body {
   margin: 0;
