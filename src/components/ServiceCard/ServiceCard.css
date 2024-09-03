@@ -1,0 +1,22 @@
+.service-card-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    box-shadow: 2px 5px 10px #ddd;
+    padding: 40px 24px 24px 24px;
+    max-width: 216px;
+    max-height: 264px;
+    font-family: var(--heebo-font);
+}
+.service-card-container img{
+    width: 42px;
+    margin-bottom: 8px;
+}
+.service-card-container .title{
+    margin: 8px 0;
+    font-size: 20px;
+    font-weight: 700;
+}
+.service-card-container .description{
+    color: #666565;
+}

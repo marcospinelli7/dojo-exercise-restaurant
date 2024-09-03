@@ -1,14 +1,18 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 //components
-import { Hero } from '../../components';
+import { Hero, ServiceCard } from '../../components';
 
 const Homepage = () => {
   return (
     <>
       <Hero />
       <h1>TEST</h1>
-      <Link to="/about">LINK</Link>
+      <ServiceCard 
+        icon="/logo.svg"
+        title="Title"
+        description="Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam"
+      />
     </>
   )
 }
