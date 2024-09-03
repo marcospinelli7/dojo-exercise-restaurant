@@ -30,6 +30,10 @@
     font-weight: 700;
     margin: 5px 0;
     font-size: 15px;
+    transition: .3s;
+}
+.footer-container .footer-section .link-item p:hover {
+    letter-spacing: 2px;
 }
 
 .footer-container .footer-section .contact-item p{
