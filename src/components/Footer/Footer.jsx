@@ -65,7 +65,7 @@ const Footer = () => {
           </div>
           <div className="opening-item">
             <p style={{fontSize: "20px", fontWeight: 700 }}>Sunday</p>
-            <p>09AM - 09PM</p>
+            <p>10AM - 08PM</p>
           </div>
         </div>
         <div className="footer-section">
@@ -73,6 +73,7 @@ const Footer = () => {
           <div className="newsletter-item">
             <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
             <input type="text" placeholder='Your Email'/>
+            {/* <button>Sign Up</button> */}
           </div>
         </div>
       </div>

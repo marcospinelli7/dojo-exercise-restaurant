@@ -1,8 +1,8 @@
 .navbar-container {
-    width: calc(100% - 50px);
+    width: 100%;
     background-color: var(--secondary-color);
     color: var(--primary-color);
-    padding: 0 24px;
+    padding: 16px 24px;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -84,11 +84,11 @@
     display: flex;
     flex-direction: column;
     border-top: 1px solid #666565 ;
+    margin-top: 16px;
 }
 .navbar-container .navbar-responsive-links ul{
     display: flex;
     flex-direction: column;
-    padding: 0;
 }
 .navbar-container .navbar-responsive-links ul li .nav-item{
     color: #fff;
@@ -97,16 +97,14 @@
     font-size: 15px;
 }
 .navbar-container .navbar-responsive-links ul li {
-    padding: 8px 0;
+    padding: 10px 0;
 }
 .action-btn{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 30px;
-    max-width: 120px;
+    max-width: 165px;
     padding: 8px 24px;
-    margin-left: 24px;
     background-color: var(--primary-color);
     font-family: var(--nunito-font);
     text-transform: uppercase;
@@ -114,6 +112,7 @@
     font-weight: 600;
     border-radius: 2px;
     transition: .7s;
+    cursor: pointer;
 }
 .action-btn:hover {
     background-color: var(--yellow);
@@ -151,6 +150,9 @@
     }
     .navbar-container .navbar-title h1{
         font-size: 39px;
+    }
+    .action-btn {
+        margin-left: 24px;
     }
 
 }
