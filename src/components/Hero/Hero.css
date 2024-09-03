@@ -47,6 +47,9 @@
     text-transform: uppercase;
     transition: .6s;
 }
+.hero-container .right-section .hero-btn:hover {
+    background-color: var(--yellow);
+}
 
 .hero-container .left-section{
     display: flex;
@@ -57,6 +60,15 @@
 .hero-container .left-section img{
     max-width: 300px;
     transition: .7s;
+    animation: rotate 50s linear infinite ;
+}
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
 
 
