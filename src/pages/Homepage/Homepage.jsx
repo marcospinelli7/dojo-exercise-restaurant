@@ -1,18 +1,35 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './Homepage.css'
 //components
-import { Hero, ServiceCard } from '../../components';
+import { AboutSection, Hero, ServiceCard } from '../../components';
 
 const Homepage = () => {
   return (
     <>
       <Hero />
-      <h1>TEST</h1>
-      <ServiceCard 
-        icon="/logo.svg"
-        title="Title"
-        description="Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam"
-      />
+      <div className="service-section">
+        <ServiceCard 
+          icon="/logo.svg"
+          title="Master Chefs"
+          description="Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam"
+        />
+        <ServiceCard 
+          icon="/logo.svg"
+          title="Quality Food"
+          description="Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam"
+        />
+        <ServiceCard 
+          icon="/logo.svg"
+          title="Online Order"
+          description="Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam"
+        />
+        <ServiceCard 
+          icon="/logo.svg"
+          title="24/7 Service"
+          description="Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam"
+        />     
+      </div>
     </>
   )
 }

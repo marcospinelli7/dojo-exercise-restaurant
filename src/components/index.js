@@ -7,6 +7,7 @@ import Hero from "./Hero/Hero";
 import HeroSection from "./HeroSection/HeroSection";
 
 import ServiceCard from "./ServiceCard/ServiceCard";
+import AboutSection from "./AboutSection/AboutSection";
 
 
 export {
@@ -15,5 +16,6 @@ export {
     Footer,
     Hero,
     HeroSection,
-    ServiceCard
+    ServiceCard,
+    AboutSection
 }
