@@ -11,6 +11,7 @@
   /* useful tertiary colors */
   --black: #000;
   --white: #fff;
+  --grey: #666565;
   --yellow: #ffc107;
 }
 * {
@@ -27,3 +28,32 @@ ul li {
 .mb-16 {
   margin-bottom: 16px;
 }
+.text-line {
+  width: 50px;
+  background-color: var(--primary-color);
+  height: 2px;
+  margin-left: 8px;
+}
+.responsive-padding {
+  padding: 0 24px;
+}
+@media screen and (min-width: 575px){
+  .responsive-padding {
+    padding: 0 48px;
+  }
+}
+@media screen and (min-width: 768px){
+  .responsive-padding {
+    padding: 0 60px;
+  }
+}
+@media screen and (min-width: 990px){
+  .responsive-padding {
+    padding: 0 80px;
+  }
+}
+/* @media screen and (min-width: 1200px){
+  .responsive-padding {
+    padding: 0 auto;
+  }
+} */

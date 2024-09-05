@@ -8,7 +8,7 @@ const Homepage = () => {
   return (
     <>
       <Hero />
-      <div className="service-section">
+      <div className="service-section responsive-padding">
         <ServiceCard 
           icon="/logo.svg"
           title="Master Chefs"
@@ -30,6 +30,7 @@ const Homepage = () => {
           description="Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam"
         />     
       </div>
+      <AboutSection />
     </>
   )
 }
