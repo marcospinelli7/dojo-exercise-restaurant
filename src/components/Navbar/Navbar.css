@@ -83,7 +83,7 @@
 .navbar-container .navbar-responsive-links {
     display: flex;
     flex-direction: column;
-    border-top: 1px solid #666565 ;
+    border-top: 1px solid rgba(255, 255, 255, .1); ;
     margin-top: 16px;
 }
 .navbar-container .navbar-responsive-links ul{
