@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './Homepage.css'
 //components
-import { AboutSection, Hero, ServiceCard } from '../../components';
+import { AboutSection, BookingSection, Hero, MenuSection, SectionTitle, ServiceCard, TeamCard, TestimonialSection } from '../../components';
 
 const Homepage = () => {
   return (
@@ -31,6 +31,27 @@ const Homepage = () => {
         />     
       </div>
       <AboutSection />
+      <SectionTitle
+        sectionName="Food Menu"
+        sectionTitle="Most Popular Items"
+      />
+      <MenuSection />
+      <BookingSection />
+      <SectionTitle
+        sectionName="Team Members"
+        sectionTitle="Our Master Chefs"
+      />
+      <div className="team-section responsive-padding">
+      <TeamCard img="1"/>
+      <TeamCard img="2"/>
+      <TeamCard img="3"/>
+      <TeamCard img="4"/>
+      </div>
+      <SectionTitle
+        sectionName="Testimonial"
+        sectionTitle="Our Clients Say!!!"
+      />
+      <TestimonialSection />
     </>
   )
 }
