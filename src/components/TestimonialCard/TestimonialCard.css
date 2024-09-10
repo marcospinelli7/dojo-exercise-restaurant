@@ -1,0 +1,28 @@
+.testimonial-card-container {
+    border: 1px solid #dee2e6;
+    display: flex;
+    flex-direction: column;
+    font-family: var(--nunito-font);
+    width: 300px;
+    padding: 24px;
+    border-radius: 2px;
+}
+.testimonial-card-container .icon{
+    width: 45px;
+    margin-bottom: 16px;
+}
+.testimonial-card-container p{
+    color: var(--grey);
+}
+.testimonial-card-container .user{
+    display: flex;
+    flex-direction: row;    
+    margin-top: 16px;
+}
+.testimonial-card-container .user div{
+    margin-left: 16px; 
+}
+.testimonial-card-container .user img{
+    border-radius: 50%;
+    width: 50px;
+}
