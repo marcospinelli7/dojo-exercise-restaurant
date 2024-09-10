@@ -19,7 +19,7 @@ const AboutSection = () => {
             </div>
         </div>
         <div className="right">
-            <p className="section-name">About Us <div className='text-line'></div></p>
+            <p className="section-name">About Us <span className='text-line'></span></p>
             <div className="section-title">
                 Welcome to  
                 <img src="./assets/icons/logo.svg" alt="logo_img" />
