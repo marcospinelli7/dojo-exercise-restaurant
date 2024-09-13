@@ -1,5 +1,5 @@
 import React from 'react'
-import { HeroSection } from '../../components'
+import { HeroSection, TestimonialSection } from '../../components'
 
 const TestimonialPage = () => {
   return (
@@ -8,6 +8,7 @@ const TestimonialPage = () => {
             pageTitle="Testimonial"
             pagePath="testimonial"
         />
+        <TestimonialSection />
     </> 
   )
 }
