@@ -13,6 +13,7 @@
     padding: 16px 24px;
     margin: 40px 0;
     width: 100%;
+    gap: 0 24px;
 }
 .menu-section-container .menu-section-selector .selector{
     display: flex;
@@ -43,14 +44,40 @@
     padding: 24px 0;
     align-items: center;
     justify-content: center;
+    width: 100%;
 }
-.menu-section-container .menu-item{
+.menu-section-container .menu-items .item{
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
+    width: 100%;
 }
-
+.menu-section-container .menu-items .item div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid #dee2e6;
+    padding: 8px 0;
+}
+.menu-section-container .menu-items .item div .item-name{
+    font-family: var(--nunito-font);
+    font-size: 1.25rem;
+    font-weight: 800;
+    line-height: 1.2;
+}
+.menu-section-container .menu-items .item div .item-price{
+    font-family: var(--nunito-font);
+    font-size: 1.25rem;
+    font-weight: 800;
+    line-height: 1.2;
+    color: var(--primary-color);
+}
+.menu-section-container .menu-items .item .item-desc{
+    margin-top: 8px;
+    font-family: var(--heebo-font);
+    font-size: 14px;
+    color: var(--grey);
+}
 
 .active {
-    border-bottom: 2px solid var(--primary-color) ;
+    border-bottom: 2px solid var(--primary-color);
 }
