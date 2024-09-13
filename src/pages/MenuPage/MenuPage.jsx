@@ -1,13 +1,14 @@
 import React from 'react'
-import { HeroSection } from '../../components'
+import { HeroSection, MenuSection } from '../../components'
 
 const MenuPage = () => {
   return (
     <>
         <HeroSection 
-            pageTitle="Menu"
+            pageTitle="Food Menu"
             pagePath="menu"
         />
+        <MenuSection />
     </> 
   )
 }
