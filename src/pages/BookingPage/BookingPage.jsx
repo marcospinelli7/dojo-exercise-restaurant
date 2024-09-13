@@ -1,14 +1,15 @@
 import React from 'react'
-import { HeroSection } from '../../components'
+import { BookingSection, HeroSection } from '../../components'
 
 const BookingPage = () => {
   return (
     <>
-    <HeroSection 
-        pageTitle="Booking"
-        pagePath="booking"
-    />
-</> 
+      <HeroSection 
+          pageTitle="Booking"
+          pagePath="booking"
+      />
+      <BookingSection />
+    </> 
   )
 }
 
