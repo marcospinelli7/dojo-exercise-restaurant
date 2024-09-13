@@ -5,7 +5,7 @@
     background-color: #fff;
     box-shadow: 0 0 45px rgba(0, 0, 0, .08);
     /* height: calc(100% - 38px); */
-    transition: .5s;
+    transition: .7s;
     max-width: fit-content;
     padding: 40px 40px 0 40px;
 }
@@ -20,6 +20,15 @@
 .team-card-container p{
     font-family: var(--heebo-font);
     margin-bottom: 24px;
+}
+.team-card-container .social{
+    display: none;
+    transition: .7s;
+}
+.team-card-container:hover{
+    .social {
+        display: flex;
+    }
 }
 .team-card-container .social img{
     border-radius: 50% 50% 0 0;

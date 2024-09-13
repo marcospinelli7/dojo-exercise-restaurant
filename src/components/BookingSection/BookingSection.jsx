@@ -13,6 +13,7 @@ const BookingSection = () => {
             <div className="video-btn" onClick={toogleModal}>
                 <div className='triangle'></div>
             </div>
+            <div className="video-animate"></div>
         </div>
         <div className="right">
             <p className='section-name'>

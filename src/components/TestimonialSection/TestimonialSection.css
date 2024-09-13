@@ -1,6 +1,7 @@
 .testimonial-section-container {
     background-color: #f1f1f1;
     overflow: hidden;
+    padding: 48px 0;
 }
 .testimonial-section-container .swiper-wrapper {
     display: flex;

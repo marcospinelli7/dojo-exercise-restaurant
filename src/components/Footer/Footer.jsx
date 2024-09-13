@@ -80,7 +80,7 @@ const Footer = () => {
 
       <div className="footer-bottom">
         <div className='copyright'>
-          <p>made with ♥ by a nerdy guy with math issues</p>
+          <p>© Your Site Name, All Right Reserved. Designed By HTML Codex</p>
           <p>Distributed By ThemeWagon</p>
         </div>
         <div className='other-links'>
