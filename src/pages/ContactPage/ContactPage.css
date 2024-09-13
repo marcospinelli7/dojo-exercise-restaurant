@@ -1,0 +1,108 @@
+.contact-section-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #f1f1f1;
+    padding-bottom: 48px;
+}
+.contact-section-container .contact-section-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.contact-section-container .contact-section-info .info-element {
+    display: flex;
+    flex-direction: column;
+    margin: 24px 0 0;
+}
+.contact-section-container .contact-section-info .info-element h3{
+    font-family: var(--pacifico-font);
+    color: var(--primary-color);
+    display: flex;
+    align-items: center;
+}
+.contact-section-container .contact-section-info .info-element div{
+    display: flex;
+}
+.contact-section-container .contact-section-info .info-element div p{
+    display: flex;
+    font-family: var(--heebo-font);
+    font-size: 16px;
+    color: var(--grey);
+}
+.contact-section-container .contact-section-info .info-element div img{
+    width: 15px;
+    margin-right: 8px;
+}
+
+.contact-section-container .contact-section-content{
+    display: flex;
+    flex-direction: column;
+    gap: 0 24px;
+    margin-top: 48px;
+}
+.contact-section-container .contact-section-content .left,
+.contact-section-container .contact-section-content .right {
+    width: 100%;
+}
+.contact-section-container .contact-section-content .left {
+    width: 100%;
+    margin-top: 24px;
+}
+.contact-section-container .contact-section-content .left div{
+    width: 100%;
+    min-height: 300px;
+    border-radius: 1px solid red;
+    background-color: red;
+}
+.contact-section-container .contact-section-content .right input{
+    padding: 16px 8px;
+    width: 100%;
+    border: 1px solid #ced4da;
+}
+.contact-section-container .contact-section-content .right .contain {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.contact-section-container .contact-section-content .right textarea{
+    width: 100%;
+}
+.contact-btn {
+    max-width: none;
+    padding: 16px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 24px;
+    background-color: var(--primary-color);
+    font-family: var(--nunito-font);
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 2px;
+    transition: .7s;
+    cursor: pointer;
+    margin-left: 0;
+}
+@media screen and (min-width: 768px){
+    .contact-section-container .contact-section-info{
+        flex-direction: row;
+    }
+    .contact-section-container .contact-section-content {
+        flex-direction: row;
+    }
+    .contact-section-container .contact-section-content .right .contain {
+        flex-direction: row;
+    }
+    .contact-section-container .contact-section-content .right .contain input{
+        width: 49%;
+    }
+    .contact-section-container .contact-section-content .left,
+    .contact-section-container .contact-section-content .right {
+    width: 50%;
+    }
+    .contact-section-container .contact-section-content .left {
+        margin-top: 0;
+    }
+    
+}
